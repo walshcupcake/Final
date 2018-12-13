@@ -10,6 +10,7 @@ $(document).ready(function(){
     });
 
 	  $('h1').on("mouseover", function() {
+	  	console.log(this)
     	$(this).css("color", "#ffee00");
     });
 
