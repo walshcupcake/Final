@@ -1,0 +1,93 @@
+h2 {
+	font-family: 'Clicker Script', cursive;
+	color: #05ddff;
+	font-size: 600%;
+	text-align: center;
+	padding-bottom: 0px;
+	position: relative;
+	top: -60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+#stroke {
+	 text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+body {
+	margin: 0
+	height: 150vh;
+}
+
+h1 {
+	font-family: 'Clicker Script', cursive;
+	font-style: thin;
+	text-align: center;
+	color: #595959;
+	font-size: 800%;
+	z-index: 2;
+	margin-top: 0px;
+}
+
+.toolbar {
+	width: 80%;
+	height: 5%;
+	background-color: rgb(135, 135, 135);
+	z-index: 10;
+	border-radius: 12px;
+	top: -90px;
+	position: relative;
+	margin: auto;
+	left: 10%;
+	margin: 0;
+
+}
+
+ul {
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	display: inline;
+  	font-weight: 10000;
+}
+
+li {
+	display: inline;
+	padding-top: 1%;
+	border-right: 2px solid #05ddff;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  margin-left: 7%;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 175%;
+  margin-right: 7%;
+  
+}
+
+
+li:last-child {
+  border-right: none;
+}
+
+img {
+	left: 15%;
+	position: relative;
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid black;
+	top: -60px;
+
+}

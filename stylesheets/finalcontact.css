@@ -1,0 +1,132 @@
+h2 {
+	font-family: 'Clicker Script', cursive;
+	color: #ff353f;
+	font-size: 600%;
+	text-align: center;
+	padding-bottom: 0px;
+	position: relative;
+	top: -65px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+	 text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+body {
+	margin: 0
+
+}
+
+h1 {
+	font-family: 'Clicker Script', cursive;
+	font-style: thin;
+	text-align: center;
+	color: rgba(242, 245, 249,1);
+	font-size: 800%;
+	z-index: 2;
+	padding-top: 8px;
+	margin-top: 0px;
+	background: #4f4f4f;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+#name {
+	width: 40%;
+	left: 30%;
+	position: relative;
+	font-family: 'Heebo', sans-serif;
+	font-size: 14px;
+}
+
+#email {
+	width: 40%;
+	left: 30%;
+	position: relative;
+	font-family: 'Heebo', sans-serif;
+	font-size: 14px;
+}
+
+#phone {
+	width: 40%;
+	left: 30%;
+	position: relative;
+	font-family: 'Heebo', sans-serif;
+	font-size: 14px;
+}
+
+#comments {
+	width: 40%;
+	left: 30%;
+	position: relative;
+	font-family: 'Heebo', sans-serif;
+	font-size: 14px;
+}
+
+#button {
+	width: 20%;
+	left: 30%;
+	position: relative;
+	font-family: 'Heebo', sans-serif;
+}
+
+#box {
+	background-color: #ff353f;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	position: relative;
+	float: top;
+	bottom: 70px;
+}
+
+.toolbar {
+	width: 80%;
+	height: 5%;
+	background-color: rgb(135, 135, 135);
+	z-index: 10;
+	border-radius: 12px;
+	top: 23%;
+	position: fixed;
+	margin: auto;
+	left: 10%;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+ 	margin: 0;
+  	padding: 0;
+  	display: inline;
+  	font-weight: 10000;
+}
+
+li {
+	display: inline;
+	padding-top: 1.5%;
+	border-right: 2px solid #ff353f;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  margin-left: 7%;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  font-size: 175%;
+  margin-right: 7%;
+  
+}
+
+li:last-child {
+  border-right: none;
+}
+
